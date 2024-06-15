@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    *{
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+  <script src="./js/script.js" defer></script>
+</head>
+<body class="font-josefinsans flex justify-center min-h-screen relative sm:bg-[url('/images/bg-pattern-desktop.svg')]">
+    <div class=" max-w-85">
+      <img src="./images/hero-desktop.jpg" alt="" class="hidden sm:absolute sm:block right-0 sm:h-screen">
+    <header>
+      <img class="w-44 p-8 sm:absolute left-32  " src="./images/logo.svg" alt="">
+    </header>
+  <!-- container -->
+    <img class="sm:hidden" src="./images/hero-mobile.jpg" alt="" >
+    <div class="sm:text-left  sm:w-102 sm:absolute sm:left-36 sm:top-40">
+      <h1 class="text-DesaturatedRed-0 text-center font-300 tracking-broad text-4xl  p-10 sm:text-left  sm:pl-4">WE'RE
+        <span class="text-DarkGrayishRed-0 block space-x-11 font-400  ">
+           COMING SOON
+        </span>
+      </h1>
+      <p class="text-sm mt-0 px-5 font-600 text-center text-DesaturatedRed-0 mb-5 tracking-wider sm:text-left">
+        Hello fellow shoppers! We're currently building our new fashion store. 
+        Add your email below to stay up-to-date with announcements and our launch deals.
+      </p> 
+     
+      <div class="relative ">  
+      <form class="mb-10" id="form">    
+        <input class="text-sm w-80 border-2 opacity-35 placeholder:text-DesaturatedRed-0 border-DesaturatedRed-0 p-3 rounded-full ml-5 sm:w-96 outline-none " id="input" placeholder="Email Address" >
+        <button class="bg-gradient-to-r from-g2c1-0 to-g2c2-0 py-3 px-6 rounded-full absolute right-9 active:scale-110 shadow-2xl shadow-SoftRed-0 sm:px-10" type="submit"><img class="p-0.5" src="./images/icon-arrow.svg" alt=""></button>
+        
+      </form>
+    <div id="error_msg"></div>
+    </div> 
+      
+    </div>
+    <footer class="absolute bottom-0 left-10">
+    <p class="attribution text-SoftRed-0 ">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Siddhant Khot</a>.
+    </p>
+  </footer>
+  </div>
+
+  
+</body>
+</html>
